@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --primary-color: #064e3b;
+  --secondary-color: #a7f3d0;
+  --light-emerald: #ecfdf5;
+  --off-white: #f3f4f6;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--off-white);
+}
+
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+.cash-manager {
+  padding-bottom: 2rem;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0 0.2rem 0.4rem;
+  color: black;
+  border: 1px solid;
+  border-radius: 0.3rem;
+  background: var(--light-emerald);
+}
+
+.currency input {
+  margin-left: 0.5rem;
+  background: var(--light-emerald);
+  border: 0;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: 0;
+}
+
+label {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: var(--light-emerald);
+  border: 1px solid black;
+}
+
+button:hover {
+  background: var(--secondary-color);
+}
+
+table {
+  min-width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid;
+  padding: 0.5rem;
+}
+
+th {
+  background: var(--secondary-color);
+  color: black;
+}
+
+td {
+  background: var(--light-emerald);
+  color: black;
+}
+
+table caption {
+  margin-bottom: 1rem;
+}

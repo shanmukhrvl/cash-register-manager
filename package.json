@@ -1,0 +1,27 @@
+{
+  "name": "cash-register-manager",
+  "version": "1.0.0",
+  "description": "An app built with reactjs. It helps user to by telling how can he/she return the change to the customer with minimum number of notes.",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
