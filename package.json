@@ -1,7 +1,7 @@
 {
   "name": "cash-register-manager",
   "version": "1.0.0",
-  "description": "An app built with reactjs. It helps user to by telling how can he/she return the change to the customer with minimum number of notes.",
+  "description": "A cash register manager app built with reactjs.It helps the user by telling how can he/she return the change to the customer with minimum number of notes.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
