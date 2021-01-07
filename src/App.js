@@ -70,7 +70,7 @@ export default function App() {
         <div className="input-field">
           <label htmlFor="billAmount">
             Enter bill Amount:
-            <span class="currency">
+            <span className="currency">
               ₹
               <input
                 type="number"
@@ -84,7 +84,7 @@ export default function App() {
 
           <label htmlFor="cashAmount">
             Enter Cash Given:
-            <span class="currency">
+            <span className="currency">
               ₹
               <input
                 type="number"
@@ -118,7 +118,7 @@ export default function App() {
               </thead>
               <tbody>
                 {typeCount.map((item) => (
-                  <tr>
+                  <tr key={item.type}>
                     <td>{item.type}</td>
                     <td>{item.count}</td>
                   </tr>
